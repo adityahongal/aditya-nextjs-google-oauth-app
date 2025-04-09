@@ -3,8 +3,8 @@
 import { Button } from '@mui/material';
 
 const GoogleSignInButton = () => {
-  const clientId = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
-  const redirectUri = process.env.NEXT_PUBLIC_REDIRECT_URI;
+  const clientId = process.env.GOOGLE_CLIENT_ID;
+  const redirectUri = process.env.REDIRECT_URI;
 
   const handleGoogleLogin = () => {
     const baseUrl = 'https://accounts.google.com/o/oauth2/v2/auth';
